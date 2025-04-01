@@ -33,13 +33,14 @@ cd chess-com-clone
 ### Install dependencies:
 
 ```bash
-npm install
+npm init -y
+npm i express chess.js ejs socket.io
 ```
 
 ### Start the server:
 
 ```bash
-node app.js
+nodemon app.js
 ```
 
 ### Open your browser and navigate to:
